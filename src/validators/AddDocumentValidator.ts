@@ -50,7 +50,6 @@ export const addDocumentValidationSchema = z
     notes: z.string().optional(), // Optional notes field
   })
   .superRefine((data, ctx) => {
-    console.log("Validating document data:", data);
   });
 
 export type AddDocumentFormValues = ZodReturnType<

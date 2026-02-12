@@ -231,7 +231,6 @@ export const editRequestValidationSchema = z
     }
 
     if (data.sendAlert) {
-      console.log('data', data);
 
       if (data.alertDayCount === null || data.alertDayCount === undefined) {
         ctx.addIssue({

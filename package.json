@@ -1,7 +1,7 @@
 {
-  "name": "scriptoscope-shared",
+  "name": "corestack-shared",
   "version": "0.1.0",
-  "description": "Shared types, schemas, and utilities for Scriptoscope backend and frontend.",
+  "description": "Shared types, schemas, and utilities for Corestack backend and frontend.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
 "exports": {

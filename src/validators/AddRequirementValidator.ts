@@ -89,7 +89,6 @@ export const addRequirementValidationSchema = z
   })
   .superRefine((data, ctx) => {
     if (data.hasLinkToRequestDate) {
-      console.log("data", data);
 
       if (data.due_day_count === null || data.due_day_count === undefined) {
         ctx.addIssue({
@@ -128,7 +127,6 @@ export const addRequirementValidationSchema = z
     }
 
     if (data.sendAlert) {
-      console.log("data", data);
 
       if (data.alertDayCount === null || data.alertDayCount === undefined) {
         ctx.addIssue({

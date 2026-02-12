@@ -1,4 +1,4 @@
-// scriptoscope-shared/src/responses/GetRequestNotesResponse.ts
+// corestack-shared/src/responses/GetRequestNotesResponse.ts
 import {
   RequestNotesResponseSchema,
   type RequestNotesResponse,
