@@ -40,7 +40,6 @@ export const addPartyValidationSchema = z.object({
     })
     .optional(),  // Contact info validation (optional)
 }).superRefine((data, ctx) => {
-  console.log("superRefine", data, ctx);
   if (!data.partyType?.id ) {
     ctx.addIssue({
       path: ['partyType'],
